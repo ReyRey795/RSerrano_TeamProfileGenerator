@@ -4,3 +4,6 @@
 
 //Create variables for all classes.
 
+const Manager = require('./lib/manager');
+const Intern = require('./lib/intern');
+const Engineer = require('./lib/engineer');
