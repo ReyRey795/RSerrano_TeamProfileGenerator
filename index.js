@@ -31,3 +31,27 @@ const questions = [
         message: "What is the employee's email?"
     }
 ];
+
+const managerQuestions = [
+    {
+        type: 'input',
+        name: 'officeNumber',
+        message: "What's the manager's office number?",
+    }
+];
+
+const internQuestions = [
+    {
+        type: 'input',
+        name: 'school',
+        message: "What school does the intern belong to?"
+    }
+];
+
+const engineerQuestions = [
+    {
+        type: 'input',
+        name: "gitHub",
+        message: "What's the engineer's GitHub account?",
+    }
+];
