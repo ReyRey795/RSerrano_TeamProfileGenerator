@@ -14,8 +14,10 @@ const fs = require('fs');
 // question.
 
 
-const questions = 
-   inquirer.prompt[({
+
+inquirer
+.prompt([
+    {
         type: 'input',
         name: 'name',
         message: "What is the employee's name?",
@@ -23,7 +25,7 @@ const questions =
     {
         type: 'input',
         name: 'id',
-        message: "What is the employee's name?",
+        message: "What is the employee's ID?",
     },
     {
         type: 'input',
@@ -35,8 +37,8 @@ const questions =
         name: 'role',
         message: "What's the employee's role?",
         choices: ['Manager', 'Intern', 'Engineer'],
-    }
-   )];
+    },
+])
 
 const managerQuestions = [
     {
