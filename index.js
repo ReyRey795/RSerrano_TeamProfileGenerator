@@ -29,6 +29,12 @@ const questions = [
         type: 'input',
         name: 'email',
         message: "What is the employee's email?"
+    },
+    {
+        type: 'list',
+        name: 'role',
+        message: "What's the employee's role?",
+        choices: ['Manager', 'Intern', 'Engineer'],
     }
 ];
 
