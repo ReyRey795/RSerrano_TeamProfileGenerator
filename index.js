@@ -14,4 +14,20 @@ const fs = require('fs');
 // question.
 
 
-const questions = 
+const questions = [
+    {
+        type: 'input',
+        name: 'name',
+        message: "What is the employee's name?",
+    },
+    {
+        type: 'input',
+        name: 'id',
+        message: "What is the employee's name?",
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: "What is the employee's email?"
+    }
+];
